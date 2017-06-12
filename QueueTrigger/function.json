@@ -1,0 +1,12 @@
+﻿{
+  "bindings": [
+    {
+      "name": "triggerInput",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "outqueue",
+      "connection": "demoappqueue_STORAGE"
+    }
+  ],
+  "disabled": false
+}

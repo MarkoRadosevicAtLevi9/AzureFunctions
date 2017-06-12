@@ -28,7 +28,7 @@ var response = client.Execute(request);
 
 // Retrieve the storage account from the connection string.
 CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
-    CloudConfigurationManager.GetSetting("demoappqueue_STORAGE"));
+    CloudConfigurationManager.GetSetting("appqueuedemo_STORAGE"));
 
 // Create the table client.
 CloudTableClient tableClient = storageAccount.CreateCloudTableClient();

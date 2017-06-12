@@ -14,8 +14,8 @@
     {
       "type": "queue",
       "name": "outputQueueItem",
-      "queueName": "outqueue",
-      "connection": "demoappqueue_STORAGE",
+      "queueName": "example-queue",
+      "connection": "appqueuedemo_STORAGE",
       "direction": "out"
     }
   ],

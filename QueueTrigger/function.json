@@ -5,7 +5,7 @@
       "type": "queueTrigger",
       "direction": "in",
       "queueName": "outqueue",
-      "connection": "demoappqueue_STORAGE"
+      "connection": "appqueuedemo_STORAGE"
     }
   ],
   "disabled": false

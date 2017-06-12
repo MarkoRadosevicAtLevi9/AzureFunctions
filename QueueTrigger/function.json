@@ -6,6 +6,7 @@
       "direction": "in",
       "queueName": "example-queue",
       "connection": "appqueuedemo_STORAGE"
+
     }
   ],
   "disabled": false
